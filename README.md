@@ -9,13 +9,17 @@
  );
  
  Записи в таблицю в books
- INSERT INTO books (title, author, published_year)
- VALUES 
-     ('Fourth Wing', 'Rebecca Yarros', 2023),
-     ('Iron Flame', 'Rebecca Yarros', 2024),
-     ('The Ballad of Never After', 'Stephanie Garber', 2022),
-     ('Divine Rivals', 'Rebecca Ross', 2023);
- 
+INSERT INTO books (title, author, published_year)
+VALUES 
+    ('Tomorrow, and Tomorrow, and Tomorrow', 'Gabrielle Zevin', 2022),
+    ('The Covenant of Water', 'Abraham Verghese', 2023),
+    ('The Heaven & Earth Grocery Store', 'James McBride', 2023),
+    ('Yellowface', 'R. F. Kuang', 2023),
+    ('Hello Beautiful', 'Ann Napolitano', 2023),
+    ('Demon Copperhead', 'Barbara Kingsolver', 2022),
+    ('Lessons in Chemistry', 'Bonnie Garmus', 2022),
+    ('Remarkably Bright Creatures', 'Shelby Van Pelt', 2022);
+
  В Visual Studio Code
  Термінал
  npm init -y
